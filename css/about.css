@@ -1,0 +1,72 @@
+/*main css*/
+
+main {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+
+.banner {
+  background-image: url('../images/banner.png');
+     color:#ffffff;
+     display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   }
+
+.hero-content{
+  padding:100px;
+  margin-inline:auto;
+}
+
+.icon {
+  padding-top: 5rem;
+width: 200px;
+height: 200px;
+}
+
+.hero {
+  padding:100px;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+}
+
+footer {
+  padding: 5rem;
+}
+
+.art {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+iframe {
+  padding-bottom: 10rem;
+  display: block;
+  margin: 0 auto;
+
+  border: 0;
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  align-items:center
+}
+
+.card:hover {
+  object-fit: contain;
+}
+
+article {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

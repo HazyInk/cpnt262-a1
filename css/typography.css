@@ -1,0 +1,59 @@
+/*typography css*/
+
+.hero {
+  text-align:center;
+}
+
+.banner {
+  text-align: center;
+}
+
+article {
+  padding: 5rem;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Young Serif', serif;
+}
+
+p {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+
+.button {
+  font-family: 'Young Serif', serif;
+
+  font-size:24px;
+  max-width: 300px;
+}
+
+nav ul {
+  font-family: 'Young Serif', serif;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 5rem;
+}

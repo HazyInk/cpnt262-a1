@@ -4,7 +4,7 @@ body {
 
   background-color: #ebf2f5;
   }
-   
+
   footer {
   background-color: #111; 
   }
@@ -13,6 +13,14 @@ body {
     list-style: none;
     padding-left: 0;
     margin: 0;
+  }
+
+  .backbutton {
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #ebf2f5;
   }
   
   .card {

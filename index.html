@@ -6,6 +6,8 @@
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/typography.css" />
+  <link rel="stylesheet" type="text/css" href="css/button.css" />
+  <link rel="stylesheet" type="text/css" href="css/navmenu.css" />
   <script src="client.js" type="module" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,28 +22,70 @@
   <div class="banner">
     <h1>ART AND DESIGN</h1>
   </div>
-  <nav>
-    <ul>
-      <a class="navbar" href=index.html">
-        <div class="sunshine">
-              <img src="images/logo.png" class="img-fluid" width="65px" height="65px">
+    <div class="container">
+      <nav class="nav-bar">
+        <a href="#" class="nav-branding">InkMedia</a>
+  
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Order</a>
+          </li>
+        </ul>
+  
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-    </a>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-  </nav>
+      </nav>
+    </div>
   <header>
     <section class="hero">
       <div class="hero-content">
-        <h1>Welcome!</h1>
-        <h3>Welcome to my portfolio page. here you can see my various works for other clients and stuff that i have done for college.</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/c9ngFduPffI?si=b3I-GRny_pVvW9sy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1>About The Artist</h1>
+        <h4>View all my work using the button bellow.</h4>
+        <a href="https://reillysheapaston.myportfolio.com/work" class="button">Contact</a>
       </div>
     </section>
  </header>
-
+  <main>
+    <h2>Hi, I'm Reilly!</h2>
+    <p>
+      A passionate freelance graphic designer who loves art and got into graphic design in Junior High year, with 2 years of professional college experience in; Indesign, Illustrator, HTML/CSS, and Photoshop. I enjoy making creations of my own, as well as for others, as my passion for art and design is a key part of my life. I work very well with others but prefer to have my own space to focus and work.</p>
+      <h2>Shop for some art</h2>
+</main>
+<article id="card">
+  <a id="cardLink" href="contact.html">
+    <div class="card">
+    <img class="art" src="images/background.png">
+  <h4>Soft Rainbow</h4>
+  <p>Sale: $10 CAD</p>
+    <p><em>"A digital piece that can be bought and printed off on a canvas, poster, card, phone case ect..."</em></p>
+  <h6><strong>Click the card to find out more</strong></h6>
+  </div>
+  </a>
+  </article>
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+    <fieldset id="fs-frm-inputs">
+      <label for="full-name">Full Name</label>
+      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+      <label for="email-address">Email Address</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+      <label for="message">Message</label>
+      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
   <footer>
 <ol class="ol">
  <a href="https://github.com/HazyInk">

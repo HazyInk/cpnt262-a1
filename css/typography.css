@@ -34,25 +34,6 @@ h1 {
   font-size: 50px;
 }
 
-
-.button {
-  font-family: 'Young Serif', serif;
-
-  font-size:24px;
-  max-width: 300px;
-}
-
-nav ul {
-  font-family: 'Young Serif', serif;
-}
-
-nav a {
-  font-size: 20px;
-  text-decoration: none;
-  display: block;
-  padding: 0.5rem 1rem;
-}
-
 .copyright {
   text-align: center;
   padding-top: 5rem;

@@ -1,0 +1,143 @@
+*
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.test {
+  font-family: monospace;
+  font-size: 1.25rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #111;
+  color: #fff;
+}
+
+/* need a solution for the next 2 properties */
+li {
+  list-style: none;
+}
+
+nav {
+  background-color: #111;
+}
+
+nav a {
+  
+  color: #ebf2f5;
+}
+
+nav a:hover {
+  border-radius: 20px;
+  color: #a88cf1;
+}
+
+.nav-bar {
+  min-height: 4.375em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-branding {
+  font-size: 2rem;
+  font-weight: 600;
+  transition: color 500ms ease;
+}
+
+.nav-branding:hover, .nav-branding:focus {
+  color: dodgerblue;
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 3.375em;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 750ms;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+
+.nav-link {
+  transition: 400ms ease;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: dodgerblue;
+
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  background-color: #fff;
+  width: 24px;
+  /* The following 2 properties are essential in creating the "X" when the hamburger is clicked. If you change just 1 of the 2, then you need to find the proper combination for the other one */
+  height: 2px;
+  margin: 6px auto;
+
+  /*    -webkit-transition: all 300ms ease;  */
+  transition: all 300ms ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (min-width: 768px) {
+
+  .nav-menu {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    width: auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+.container {
+  margin: 0 auto;
+}
+
+nav ul {
+  font-family: 'Young Serif', serif;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+}

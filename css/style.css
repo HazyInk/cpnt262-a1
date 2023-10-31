@@ -4,56 +4,7 @@ body {
 
   background-color: #ebf2f5;
   }
-  
-  
-  .gitsvg, .foldersvg, .scratchsvg {
-    fill: #ffffff;
-  }
-  
-  .button{
-    background: #c97100;
-    background: linear-gradient(180deg, #c9006b 0%, #ff1479 32%, #ff45ab 72%, #ff0065 95%);
-    color:#300050;
-    
-    text-decoration:none;
-    border-style: groove;
-  }
-  
-  .button:hover {
-    background: #c97100;
-    background: linear-gradient(0deg, #c9006b 0%, #ff1479 32%, #ff45ab 72%, #ff0065 95%);
-    color: #ffffff;
-  }
-  
-  nav ul #mylist {
-    display: hidden;
-  }
-
-  nav ul {
-    overflow: hidden;
-    position: relative;
-  
-    background-color: #1f2021;
-
-    padding-left: 0;
-  margin: 0;
-
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  }
-  
-  nav a {
-  
-    color: #ebf2f5;
-  }
-  
-  nav a:hover {
-    border-radius: 20px;
-    color: #a88cf1;
-  }
-  
+   
   footer {
   background-color: #111; 
   }

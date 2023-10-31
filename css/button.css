@@ -1,0 +1,25 @@
+.gitsvg, .foldersvg, .scratchsvg {
+  fill: #ffffff;
+}
+
+.button{
+  background: #c97100;
+  background: linear-gradient(180deg, #c9006b 0%, #ff1479 32%, #ff45ab 72%, #ff0065 95%);
+  color:#300050;
+  
+  text-decoration:none;
+  border-style: groove;
+}
+
+.button:hover {
+  background: #c97100;
+  background: linear-gradient(0deg, #c9006b 0%, #ff1479 32%, #ff45ab 72%, #ff0065 95%);
+  color: #ffffff;
+}
+
+.button {
+  font-family: 'Young Serif', serif;
+
+  font-size:24px;
+  max-width: 300px;
+}
